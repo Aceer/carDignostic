@@ -1,0 +1,18 @@
+<div class="container">
+	<h2>View 1</h2>
+	Sök efter ett land eller en stad:<br>
+	<input type="text" data-ng-model="userInput.filter"/>
+	<br>
+	<ul>
+		<li data-ng-repeat="country in countries | filter:userInput.filter">{{  country.name | uppercase}} - {{ country.city }}</li>
+	</ul>
+	<br>
+	Add a country:<br>
+	<input type="text" data-ng-model="userInput.country"/><br>
+	Add city:<br>
+	<input type="text" data-ng-model="userInput.city"/><br>
+	<br>
+	<button data-ng-click="addCountry()">Add country</button><br>
+	<a href="#/view2">View2</a>
+	
+</div>

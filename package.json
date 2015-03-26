@@ -1,0 +1,14 @@
+{
+  "name": "carDignostic",
+  "version": "1.0.0",
+  "description": "kommer",
+  "main": "gruntfile.js",
+  "author": "alex",
+  "license": "ISC",
+  "private": true,
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-contrib-less": "^1.0.0",
+    "grunt-contrib-watch": "^0.6.1"
+  }
+}

@@ -1,0 +1,12 @@
+Info om derective mappen
+
+- DOM manipulering ska ske här (javascript eller jQuery)
+- derictive är till för att jobba med ett element och binda data med det(attributes).
+- ex: app.directive('showMessageWhenHovered', function(){
+      restrict:"A",
+      link: function(scope, element, attributes){
+        javascript/jQuery...
+        scope.data(attribute) = attributes.data
+        scope.$apply();
+      }	
+    });
